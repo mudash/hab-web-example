@@ -10,5 +10,5 @@ worker_connections = 512
 
 [http.server]
 listen = 80
-root = "/hab/svc/hello-hab-server/static"
+root = "/hab/svc/hab-webserver/static"
 index = "index.html"

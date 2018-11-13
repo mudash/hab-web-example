@@ -1,4 +1,4 @@
-pkg_name="hello-hab-server"
+pkg_name="hab-webserver"
 pkg_origin="chefshafique"
 pkg_version="0.1.0"
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
