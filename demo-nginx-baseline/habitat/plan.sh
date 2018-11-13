@@ -1,5 +1,5 @@
 pkg_name=demo-nginx-baseline
-pkg_version=2.2.0
+pkg_version=2.2.1
 pkg_origin=chefshafique
 pkg_deps=(chef/inspec core/ruby core/hab)
 pkg_svc_user=root

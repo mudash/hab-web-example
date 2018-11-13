@@ -78,7 +78,7 @@ HTTP_METHODS = attribute(
 NGINX_CONFIG_PATH = attribute(
   'nginx_config_path',
   description: 'Path where nginx config file is installed',
-  default: '/hab/svc/hello-hab-server/config/nginx.conf'
+  default: '/hab/svc/hab-webserver/config/nginx.conf'
 )
 NGINX_PATH = attribute(
   'nginx_path',
