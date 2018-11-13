@@ -1,0 +1,4 @@
+sleep_time = 300
+[nginx]
+nginx_config_path = "/hab/svc/hello-hab-server/config/nginx.conf"
+nginx_path = "/bin/nginx"
