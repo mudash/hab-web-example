@@ -11,5 +11,7 @@ do_build() {
 }
 
 do_install() {
-  return 0
+  echo "package prefix is: ${pkg_prefix}"
+  mkdir -p "${pkg_prefix}/dist"
+  cp -v index.html "${pkg_prefix}/dist/"
 }
