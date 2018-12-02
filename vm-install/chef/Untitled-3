@@ -1,0 +1,18 @@
+
+
+
+
+
+ #cloud-config
+script: |
+ <powershell>
+ New-LocalUser "admin2" -Password "admini2$9" -FullName "Third User" -Description "Description of this account."
+ } *> c:/setup.log
+ </powershell>
+
+
+ 
+
+// Can demo Inspec OneView e.g Check iLO or Server configuration
+
+

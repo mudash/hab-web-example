@@ -1,0 +1,6 @@
+*.pyc
+run*.py
+test/
+test.py
+*.conf
+*.pem
