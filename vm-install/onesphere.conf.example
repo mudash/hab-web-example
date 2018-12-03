@@ -1,17 +1,20 @@
 [onesphere]
-hostname=https://YOURSERVER.hpeonesphere.com
-username=you@example.com
-password=ThisIsVerySecretPassword
+hostname=https://deic03-hpe.hpeonesphere.com
+username=yourusername
+password=mysecretpassword
 
 [project]
-project_name=My Example Project
-service_name=CentOS7
-profile_id=3
-public_key_file=public_key.pem
+project_name=Chef Project Habitat
+service_name=CentOS7-CloudInit-DEIC2
+aws_service_name=CentOS7AWS-DEIC-OH
+profile_id=5
+aws_profile_id=4d8b9033-6065-4677-937a-4c136d7acb4e
+public_key_file=path-to-public-key-for-chef-automate
 
 
 [user_data]
-chef_server_url=https://YOUR_AUTOMATE_SERVER/organizations/default
+chef_server_url=https://madridchefserver.us-west2.compute.internal/organizations/default
+chef_server_ip=ip-address-of-your-chef-server
+chef_server_fqdn=madridchefserver.us-west2.compute.internal
 validator_key_file=default-validator.pem
-run_list="recipe[chef-client]","recipe[opsworks-audit]", "recipe[hab_national_parks]"
-
+run_list="recipe[chef_client_wrapper]","recipe[hab_web_example]"
