@@ -26,9 +26,9 @@ sudo pip install requests
 
 1- Update the configuration for your environment:
   
-  a- Copy the onesphere.conf.example to onesphere.conf 
+    a- Copy the onesphere.conf.example to onesphere.conf 
   
-  b- Update the onesphere.conf file with your HPE OneSphere and Chef Automate server settings
+    b- Update the onesphere.conf file with your HPE OneSphere and Chef Automate server settings
 
 2- Execute the create-node script
      
