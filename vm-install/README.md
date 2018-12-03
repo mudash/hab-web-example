@@ -24,3 +24,16 @@ sudo pip install requests
 
 ## Usage
 
+1- Update the configuration for your environment:
+  
+  a- Copy the onesphere.conf.example to onesphere.conf 
+  
+  b- Update the onesphere.conf file with your HPE OneSphere and Chef Automate server settings
+
+2- Execute the create-node script
+     
+
+     python3.6 create-node demo-webserver -a -v 
+
+   
+   The above command will create an AWS VM with name demo-webserver in HPE OneSphere environment
